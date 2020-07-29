@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>James Castro</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+        
+            <link href="https://unpkg.com/cirrus-ui" type="text/css" rel="stylesheet" />
+       	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+            <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+            <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+           
+    		<!-- Compiled and minified CSS -->
+    		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    		<!-- Compiled and minified JavaScript -->
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+	    <style>
+                html {
+                    scroll-behavior: smooth;
+                }
+
+                .grid-container {
+  			        display: grid;
+                    grid-template-columns: auto auto auto;
+                    margin: 0 auto;
+                }
+                .grid-item {
+                    padding: 10px;
+                    margin-top:10px;
+                    overflow: hidden;
+                }
+                .grid-container2 {
+  			        display: grid;
+                    grid-template-columns: auto auto;
+                    margin: 0 auto;
+                }
+                .fontwrap{
+                    font-family: 'Montserrat';
+                }
+                .backnav{
+                    background-color: #182440;
+                }
+                .divider{
+                    background-color:#182440;
+                    min-height:9vh;
+                    
+                    font-size:45px;
+                    font-weight: bold;
+                    color:white;
+                }
+                .contentSection{
+                    background-color:white;
+                    color:black;
+                }
+
+                .subtitle{
+                    font-size:20px;
+                    letter-spacing:2px;
+                }
+                .footer{
+                    background-color:#111111;
+                    color:white;
+                    font-size:13px;
+                    font-family: 'Montserrat';
+                    text-align:center;
+                    font-weight: bold;
+                }
+
+                .card{
+                    text-align:center;
+                    color:black;
+                    background-color: #182440;
+                }
+                .parallax{
+                    background-image: url("original.png");
+                  
+                 /* Set a specific height */
+                     min-height: 100vh; 
+                  
+                    /* Create the parallax scrolling effect */
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    color:white;
+                   
+                }
+                .landing{
+                    height:100vh;
+                    font-weight: bold;
+                    font-size:90px;
+                    letter-spacing:8px;
+                }
+                .backpane{
+                    background-color:white;
+
+             
+                    float:center;
+                    
+                }
+               
+            </style>
+    </head>
+
+             <body>
+                 <div class="fontwrap">
+        <div class="navbar-fixed">
+		<nav class="backnav">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">JC</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://jamescastro98.github.io/blog">Blog</a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+		<div class="parallax">
+            <div class="landing">
+                <div align="center"><br><div id="title"> </div>
+                <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+                <script>
+                    const title = document.getElementById("title");
+                    const typewriter = new Typewriter(title, {
+                        loop: false,
+                        delay: 75
+                    });
+                    typewriter
+                    .pauseFor(2500)
+                    .typeString("Hi I'm James.")
+                    .start();
+                </script>
+
+
+                <p><div id="subtitle" class="subtitle"> </div></p>
+                <script>
+                    const subtitle = document.getElementById("subtitle");
+                    const typewrite = new Typewriter(subtitle, {
+                        loop: false,
+                        delay: 75
+                    });
+                    typewrite
+                    .pauseFor(6000)
+                    .typeString("Forever a Seawolf, Aspiring Software Engineer")
+                    .start();
+                </script>
+
+                <img src="me.jpg" width="300" height="300"><br>
+            </div>
+            </div>
+            <div class="wrapit">
+               <div class="backpane">
+               <div class = "divider"id="about">About.</div>
+                <div class="contentSection">
+                   
+                  
+                        <section  class="padtop">    </section>
+                        <div class="grid-container">
+                        <div class="grid-item">
+                        
+	                	<p>Hi, I'm James! I'm a recent Computer Science graduate from Stony Brook University. I'm currently
+                      looking for job opportunities and learning new things within software development. I love learning new things,
+                      and part of the beauty of CS is that there's always something new around the corner to learn. In particular, I loved
+                      my courses in software security & offensive security, and hope to continue learning about new vulnerabilities and how 
+                      to prevent them. Outside of school I've taught myself a bit of Deep Learning - nothing fancy, just using tools
+                      like SciKit Learn and the most elementary basics about neural networks. My long term goal is to be able to find work
+                      where I am clearly posing some benefit to society. On top of that, I'd also like to be using my skills to 
+                      pursue personal programming goals - ie, creating a Wall-E robot using OpenCV & PyTorch/TF for recognizing images
+                      of trash. Outside of programming, I'm particularly passionate about lifting weights, playing guitar, experimental & scifi movies,
+                      the Mets, and gardening. I find it's good to learn many unrelated things, as they often teach life lessons that are 
+                      applicable to every other facet of life. For more of my thoughts on these many unrelated topics, see my blog 
+                      <a href="https://jamescastro98.github.io/blog">here.</a>
+                      <br>
+                      <b>Currently Learning:</b> DotNet & the Microservice Architecture
+                      <br>
+                      <b>Currently Reading:</b> Tools of Titans by Tim Ferriss
+                      <br>
+                      <b>Currently Watching:</b> David Lynch Movies
+                      <br>
+
+                    </p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="me.jpg" width="300" height="300">
+                        </div>
+                        </div>
+               
+                  
+                </div>
+                <div class = "divider" id="portfolio">Portfolio.</div>
+                <div class="contentSection">
+                        
+                                <section  class="padtop">  </section>
+                  
+                            <p>Below are some of the projects I've had the pleasure of working on - some in school, some on my own time.</p>
+                        
+                          
+                            <div class="grid-container", id = "resultsgrid">
+                                <div class="grid-item">
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                          <div class="card">
+                                            <div class="card-content white-text">
+                                              <span class="card-title">Mipsmazon</span>
+                                              <p>
+                                                <img src="https://raw.githubusercontent.com/jamescastro98/Mipsmazon/master/Mipsmazon-login.png" ><br>
+                                                An ecommerce platform used with a SQL database that is 
+                                                  queried appropriately based upon user action
+						<br>
+						<b>Technologies Used:</b> Java, MySQL
+                                              </p>
+                                            </div>
+                                            <div class="card-action">
+                                              <a href="https://github.com/jamescastro98/Mipsmazon">Github Repo</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div> 
+
+                                <div class="grid-item">
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                          <div class="card ">
+                                            <div class="card-content white-text">
+                                              <span class="card-title">Taste the Typo</span>
+                                              <p>
+                                                <img src="https://raw.githubusercontent.com/jamescastro98/Taste-the-Typo/master/frontpg.png"><br>
+                                                A distributed typosquatting detector webapp that enables users to
+                                                see if a website is sitting on a permutation of a given site's URL.
+                                              	<br>
+						<b>Technologies Used:</b> Python with Django, HTML, CSS, JavaScript
+					      </p>
+                                            </div>
+                                            <div class="card-action">
+                                              <a href="https://github.com/jamescastro98/Taste-the-Typo">Github Repo</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div> 
+                                <div class="grid-item">
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                          <div class="card">
+                                            <div class="card-content white-text">
+                                              <span class="card-title">Misc. ML Projects</span>
+                                              <p>
+                                                <img src="mlpredict.png"><br>
+                                               Basic Machine learning projects such as stock and bitcoin prediction, MLB pitch selection, etc - 
+                                               created with SciKit Learn.
+                                              </p>
+                                            </div>
+                                            <div class="card-action">
+                                              <a href="https://github.com/jamescastro98/Starter-ML-Scripts">GitHub Repo</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div> 
+                    
+                            </div>
+                            <div class="grid-container2">
+                                <div class="grid-item">
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                          <div class="card ">
+                                            <div class="card-content white-text">
+                                              <span class="card-title">c4me</span>
+                                              <p>
+                                                <img src="c4me.png"><br>
+                                               A Full Stack Webapp created in a team of four that enables users to record college application history,
+					       as well as find out information about schools, obtain chances of admission and connect with other students applying as well.
+						<br>
+						<b> Technologies Used:</b> JavaScript via MySQL, Express.js, React.js and Node.js. 
+						Additional libraries used include bcrypt, joi and axios.
+                                              </p>
+                                            </div>
+                                            <div class="card-action">
+                                              <a href="https://github.com/jamescastro98/c4me">GitHub Repo</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                          <div class="card">
+                                            <div class="card-content white-text">
+                                              <span class="card-title">Covert Cats</span>
+                                              <p>
+                                                <img src="cc.png"><br>
+                                               A fun proof of concept Command & Control program that utilizes twitter's API to hide messages in images of cats
+					       between victims/clients and the attacker/server for commands and data exfiltration. Features include potential adaptation
+						to network traffic to create inconspicuous traffic logs.
+						<br>
+						<b>Technologies Used:</b> Python with Scapy
+                                              </p>
+                                            </div>
+                                            <div class="card-action">
+                                             <a href="https://github.com/jamescastro98/Covert-Cats">GitHub Repo</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                                     
+                      
+                      
+                    </div>
+
+                    <div class = "divider" id="contact">Contact.</div>
+                    <div class="contentSection">
+                        
+                                <section class="padtop"></section>
+                                <p> Want to work together on a project? Need a programmer? Send me an email at jamescastro98(At)gmail.com,
+                                  and check out my resume <a href="resume.pdf">here.</a>
+                                </p>
+                            
+                          
+                        </div>
+
+                        <div class = "footer">Made by James Castro using Materialize, Bootstrap & <a href=https://spiderpig86.github.io/Cirrus/>Cirrus.</a></div>
+                    </div> 
+                    </div> 
+                </div>
+            </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
