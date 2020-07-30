@@ -10,6 +10,9 @@
        	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
             <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+            <script src="https://use.fontawesome.com/webfontloader/1.6.24/webfontloader.js"></script>
+            <script src="https://use.fontawesome.com/a696b91557.js"></script>
+            <link rel="stylesheet" href="https://use.fontawesome.com/a696b91557.css" media="all">
             <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
            
     		<!-- Compiled and minified CSS -->
@@ -32,6 +35,11 @@
                     padding: 10px;
                     margin-top:10px;
                     overflow: hidden;
+                }
+                .contact-item{
+                  margin-left:10vw;
+                  margin-right:10vw;
+                  overflow:hidden;
                 }
                 .grid-container2 {
   			        display: grid;
@@ -56,7 +64,10 @@
                     background-color:white;
                     color:black;
                 }
-
+                .contactSection{
+                  margin-top:15vh;
+                  margin-bottom:15vh;
+                }
                 .subtitle{
                     font-size:20px;
                     letter-spacing:2px;
@@ -319,15 +330,40 @@
 
                     <div class = "divider" id="contact">Contact.</div>
                     <div class="contentSection">
-                        
+                        <div class="contactSection">
                                 <section class="padtop"></section>
-                                <p> Want to work together on a project? Need a programmer? Send me an email at jamescastro98(At)gmail.com,
+                                <div class="grid-container2">
+                                <div class="contact-item">
+                                  <h1>Let's Chat.</h1>
+                                </div>
+                                <div class="contact-item">
+                                <p style="text-align: center;"><br> Want to work together on a project? Need a programmer? Send me an email at jamescastro98(At)gmail.com,
                                   and check out my resume <a href="resume.pdf">here.</a>
+                                  <br>
+                                  
+                                  <a href="https://github.com/jamescastro98">
+                                    <span class="icon">
+                                      <i class="fa fa-github" aria-hidden="true">
+                                      </i>
+                                    </span>
+                                  </a>
+                                  <a href="https://www.linkedin.com/public-profile/in/james-castro-b38b0717b">
+                                    <span class="icon">
+                                      <i class="fa fa-linkedin" aria-hidden="true">
+                                      </i>
+                                    </span>
+                                  </a>
+                                  <a href="https://instagram.com/mynameisnotfidel">
+                                    <span class="icon">
+                                      <i class="fa fa-instagram" aria-hidden="true">
+                                      </i>
+                                    </span>
+                                  </a>
                                 </p>
-                            
-                          
+                            </div>
+                          </div>
                         </div>
-
+                      </div>
                         <div class = "footer">Made by James Castro using Materialize, Bootstrap & <a href=https://spiderpig86.github.io/Cirrus/>Cirrus.</a></div>
                     </div> 
                     </div> 
