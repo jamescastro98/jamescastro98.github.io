@@ -1,0 +1,62 @@
+1613095840190	geckodriver	INFO	Listening on 127.0.0.1:62230
+1613095843256	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\james\\AppData\\Local\\Temp\\rust_mozprofileS3A8Iy"
+*** You are running in headless mode.
+1613095860963	geckodriver	INFO	Listening on 127.0.0.1:62287
+1613095864014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\james\\AppData\\Local\\Temp\\rust_mozprofileAdzvlZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613095866019	Marionette	INFO	Listening on port 62295
+1613095866079	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613095866090	Marionette	ERROR	[15] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1613106911659	Marionette	INFO	Stopped listening on port 62295
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613161380005	geckodriver	INFO	Listening on 127.0.0.1:53789
+1613161383034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\james\\AppData\\Local\\Temp\\rust_mozprofileOM9bw8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613161384581	Marionette	INFO	Listening on port 53797
+1613161385079	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613161385089	Marionette	ERROR	[15] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[GFX1-]: GFX: D3D11 skip BeginFrame with device-removed.
+1613167916305	Marionette	INFO	Stopped listening on port 53797
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ng in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613161538482	Marionette	INFO	Listening on port 53903
+1613161538830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613161538843	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.n4ENBRfG0Fs.js, line 8: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.n4ENBRfG0Fs.js, line 8: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.n4ENBRfG0Fs.js, line 8: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.n4ENBRfG0Fs.js, line 8: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\james\\AppData\\Local\\Temp\\rust_mozprofileBEJiUr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613161697117	Marionette	INFO	Listening on port 54009
+1613161697335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613161697358	Marionette	ERROR	[15] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1613167917215	Marionette	INFO	Stopped listening on port 54009
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofilezLmoSh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613161731144	Marionette	INFO	Listening on port 54107
+1613161731460	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613161731481	Marionette	ERROR	[15] No reply from Marionette:Register
+1613161748588	Marionette	INFO	Stopped listening on port 54107
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
